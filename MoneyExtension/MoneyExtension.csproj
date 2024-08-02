@@ -4,6 +4,25 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MoneyExtensionsByBruno</PackageId>
+	  <Version>1.0.0</Version>
+	  <License>MIT</License>
+	  <Authors>Bruno Seraguza</Authors>
+	  <Company>Estudos</Company>
+	  <PackageDescription>Extensão para converter decimal em inteiro</PackageDescription>
+	  <Description>Extensão para converter decimal em inteiro</Description>
+	  <RepositoryUrl>https://github.com/BrunoSeraguza/Money-Extension</RepositoryUrl>
+	  <PackageProjetctUrl>https://github.com/BrunoSeraguza/Money-Extension</PackageProjetctUrl>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <!-- <PackageIcon>Icon.png</PackageIcon> -->
+	  <PackageTags>money;decimal;int;convert</PackageTags>
+	  <Title>Money Extensions</Title>
+	  <Summary>Money Extensions é uma extensão para converter decimais em inteiros</Summary>
   </PropertyGroup>
+
+  <!-- <ItemGroup>
+    <None Include="..\Media\Icon.png" Pack="true" PackagePack="\"/>
+  </ItemGroup> -->
 
 </Project>
