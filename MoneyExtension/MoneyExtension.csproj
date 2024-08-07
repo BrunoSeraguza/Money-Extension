@@ -13,16 +13,11 @@
 	  <PackageDescription>Extensão para converter decimal em inteiro</PackageDescription>
 	  <Description>Extensão para converter decimal em inteiro</Description>
 	  <RepositoryUrl>https://github.com/BrunoSeraguza/Money-Extension</RepositoryUrl>
-	  <PackageProjetctUrl>https://github.com/BrunoSeraguza/Money-Extension</PackageProjetctUrl>
+	  <PackageProjectUrl>https://github.com/BrunoSeraguza/Money-Extension</PackageProjectUrl>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	  <!-- <PackageIcon>Icon.png</PackageIcon> -->
 	  <PackageTags>money;decimal;int;convert</PackageTags>
 	  <Title>Money Extensions</Title>
 	  <Summary>Money Extensions é uma extensão para converter decimais em inteiros</Summary>
   </PropertyGroup>
-
-  <!-- <ItemGroup>
-    <None Include="..\Media\Icon.png" Pack="true" PackagePack="\"/>
-  </ItemGroup> -->
 
 </Project>

@@ -26,7 +26,5 @@ jobs:
       - name: create to package
         run: dotnet pack --configuration Release
 
-      - name: Publish package to NuGet
-        env:
-          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
-        run: dotnet nuget push "MoneyExtension/bin/Release/*.nupkg" -k $NUGET_API_KEY -s https://api.nuget.org/v3/index.json
+      - name: Publish
+        run: dotnet nuget push "MoneyExtension/bin/Release/*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
