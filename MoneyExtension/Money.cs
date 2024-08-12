@@ -16,7 +16,7 @@ public static class Money
         if(string.IsNullOrEmpty(text))
          return 0;
 
-        // quando usamos uma variavel _ a descartamos logo depois
+        /// quando usamos uma variavel _ a descartamos logo depois
         _ = int.TryParse(text, out var result);
          return result;
   }
