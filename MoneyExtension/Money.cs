@@ -9,15 +9,15 @@ public static class Money
     if ( amount < 0 )
         return 0;
 
-        var text = amount.ToString("N2")
+        var value = amount.ToString("N2")
         .Replace(",", "")
         .Replace(".", "");
 
-        if(string.IsNullOrEmpty(text))
+        if(string.IsNullOrEmpty(value))
          return 0;
 
         /// quando usamos uma variavel _ a descartamos logo depois
-        _ = int.TryParse(text, out var result);
+        _ = int.TryParse(value, out var result);
          return result;
   }
 }
