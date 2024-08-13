@@ -23,6 +23,7 @@ jobs:
       - name: test
         run: dotnet test
 
+      
       - name: create to package
         run: dotnet pack --configuration Release
 
